@@ -1,0 +1,27 @@
+
+# BEGIN Add Expires Headers 
+<IfModule mod_expires.c>
+ExpiresActive on
+#image
+ExpiresByType image/gif "access plus 30 days"
+ExpiresByType image/ico "access plus 30 days"
+ExpiresByType image/jpeg "access plus 30 days"
+ExpiresByType image/jpg "access plus 30 days"
+#audio
+ExpiresByType audio/dct "access plus 30 days"
+ExpiresByType audio/gsm "access plus 30 days"
+ExpiresByType audio/mp3 "access plus 30 days"
+ExpiresByType audio/ogg "access plus 30 days"
+#video
+ExpiresByType video/3gp "access plus 30 days"
+ExpiresByType video/avi "access plus 30 days"
+ExpiresByType video/flv "access plus 30 days"
+ExpiresByType video/mkv "access plus 30 days"
+#font
+ExpiresByType font/otf "access plus 30 days"
+#text
+ExpiresByType text/css "access plus 30 days"
+#application
+ExpiresByType application/js "access plus 30 days"
+</IfModule>
+# END Add Expires Headers Plugin
